@@ -1,0 +1,31 @@
+sample example
+https://www.itsolutionstuff.com/post/how-to-install-botman-chatbot-in-laravel-5example.html
+
+https://botman.io/2.0/driver-facebook-messenger
+
+video tutorial 
+https://course.buildachatbot.io/
+
+
+
+/------- per slack fare la stessa cosa ?
+composer require honeybadger-io/honeybadger-laravel
+
+// In app/app/Exceptions/Handler.php
+public function report(Exception $exception)
+{
++ if (app()->bound('honeybadger') && $this->shouldReport($exception)) {
++     app('honeybadger')->notify($exception, app('request'));
++ }
+
+    parent::report($exception);
+}
+
+
+
+errori su telegram
+https://laravel-news.com/notifiable-exception-package
+
+
+allargare immagini usando ai
+https://medium.com/@morozovsk/computer-vision-and-machine-learning-in-php-using-the-opencv-library-3131fe9df94b
