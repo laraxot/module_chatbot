@@ -1,13 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Modules\ChatBot\Database\Seeders;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
 
 /**
- * Class ChatBotDatabaseSeeder
- * @package Modules\ChatBot\Database\Seeders
+ * Class ChatBotDatabaseSeeder.
  */
 class ChatBotDatabaseSeeder extends Seeder {
     /**
