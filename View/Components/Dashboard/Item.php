@@ -1,6 +1,6 @@
 <?php
 /**
- * ---
+ * ---.
  */
 
 declare(strict_types=1);
@@ -9,7 +9,7 @@ namespace Modules\ChatBot\View\Components\Dashboard;
 
 use Illuminate\View\Component;
 
-//use Modules\Xot\View\Components\XotBaseComponent;
+// use Modules\Xot\View\Components\XotBaseComponent;
 
 /**
  * Class Field.
